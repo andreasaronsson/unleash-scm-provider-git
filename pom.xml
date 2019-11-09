@@ -26,9 +26,17 @@
       <timezone>1</timezone>
     </developer>
   </developers>
+  <distributionManagement>
+    <repository>
+      <id>bintray</id>
+      <name>aron-maven</name>
+      <url>https://api.bintray.com/maven/aron/maven/${project.artifactId}</url>
+    </repository>
+  </distributionManagement>
 
   <scm>
-    <connection>scm:git:https://github.com/shillner/unleash-scm-provider-git.git</connection>
+    <developerConnection>scm:git:git@github.com:andreasaronsson/unleash-scm-provider-git.git</developerConnection>
+    <connection>scm:git:git@github.com:andreasaronsson/unleash-scm-provider-git.git</connection>
     <url>https://github.com/shillner/unleash-scm-provider-git</url>
   </scm>
 
